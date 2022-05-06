@@ -1,0 +1,9 @@
+.Body{
+    background: gray;
+    height: 100px;
+}
+a{
+    text-decoration: underline;
+    padding-left: 100px;
+   padding-right: 100px;
+}

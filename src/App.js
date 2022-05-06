@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Nonalcoholic from './components/Nonalcoholic';
+import Body from './components/Body';
+import alcoholic from './components/alcoholic';
+import Random from './components/Random';
+import Alcoholic from './components/alcoholic';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Body/>
+     <Routes>
+       <Route path='/' element={<Alcoholic/>}/>
+       <Route path='/about' element={<Nonalcoholic/>}/>
+       <Route path='/posts' element={<Random/>}/>
+       <Route path='*' element={<Alcoholic/>}/>
+     </Routes>
+     
     </div>
+
   );
 }
 
