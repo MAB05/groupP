@@ -41,7 +41,7 @@ export default class MyComponent extends Component {
         <ul>
           {items.map(item => (
             <li key={item.id}>
-                {item.strDrink}
+                <h3>{item.strDrink}</h3>
                 <img width="200" height="200"  src={item.strDrinkThumb} alt="s"/>
             </li>
         
