@@ -1,8 +1,8 @@
 import MyComponent from "./Mycomponent-nonalcoholic"
-
+import './Body.css'
 function Nonalcoholic(){
     return(
-        <MyComponent/>
+        <div className="nonalcoholic"><MyComponent/></div>
     )
 }
 export default Nonalcoholic
