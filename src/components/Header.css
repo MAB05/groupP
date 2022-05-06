@@ -1,0 +1,54 @@
+.modal {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modalC {
+    margin-right: 9vw;
+    margin-top: 11vh;
+    float: right;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    height: 500px;
+    width: 200px;
+}
+
+.btnW{
+    height: 20px;
+    width: 20px;
+    background-color: crimson;
+    border-radius: 20px;
+    float: right;
+}
+
+.modal1 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalC1 {
+    margin-right: 9vw;
+    
+    float: right;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    height: 500px;
+    width: 200px;
+}
+
+.btnW1{
+    height: 20px;
+    width: 20px;
+    background-color: crimson;
+    border-radius: 20px;
+    float: right;
+}
