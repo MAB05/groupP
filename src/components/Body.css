@@ -7,3 +7,19 @@ a{
     padding-left: 100px;
    padding-right: 100px;
 }
+.random{
+    background-color: #f5f5dc;
+    padding: 10px;
+}
+.alcoholic-name{
+    background-color: #f5f5dc;
+    padding: 10px;
+}
+.nonalcoholic{
+    background-color: #f5f5dc;
+    padding: 10px;
+}
+ul{
+    display: inline;
+    margin-left: 10px;
+}

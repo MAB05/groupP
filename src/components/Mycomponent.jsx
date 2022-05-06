@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import "./Body.css"
 export default class MyComponent extends Component {
     constructor(props) {
         super(props);
@@ -41,8 +41,8 @@ export default class MyComponent extends Component {
         <ul>
           {items.map(item => (
             <li key={item.id}>
-                {item.strDrink}
-                <img width="50" height="50"  src={item.strDrinkThumb} alt="s"/>
+                <h3>{item.strDrink}</h3>
+                <img  width="100" height="100"  src={item.strDrinkThumb} alt="s"/>
             </li>
         
           ))}
