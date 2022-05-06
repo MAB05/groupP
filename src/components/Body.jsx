@@ -7,7 +7,6 @@ function Body(){
             <a href="/">Alcholic </a>
             <a href="/about">No Alcholic </a>
             <a href="/posts">Random cocktail</a>
-
         </div>
         
         </div>

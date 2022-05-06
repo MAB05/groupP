@@ -20,7 +20,7 @@ function App() {
         <Route path='/posts' element={<Random />} />
         <Route path='*' element={<Alcoholic />} />
       </Routes>
-      {/* <Footer></Footer>  */}
+      <Footer></Footer> 
 
     </div>
 
